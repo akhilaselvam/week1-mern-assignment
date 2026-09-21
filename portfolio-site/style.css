@@ -1,0 +1,32 @@
+* { margin: 0; padding: 0; box-sizing: border-box; }
+body { font-family: Arial, sans-serif; line-height: 1.6; }
+
+nav {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 20px 40px;
+  background: #1f2937;
+  color: white;
+}
+.nav-links { display: flex; list-style: none; gap: 20px; }
+.nav-links a { color: white; text-decoration: none; }
+
+section { padding: 60px 40px; }
+
+.project-grid {
+  display: grid;
+  grid-template-columns: repeat(2, 1fr);
+  gap: 20px;
+}
+.project-card {
+  background: #f3f4f6;
+  padding: 20px;
+  border-radius: 8px;
+}
+
+/* Responsive: stack on mobile */
+@media (max-width: 600px) {
+  nav { flex-direction: column; gap: 10px; }
+  .project-grid { grid-template-columns: 1fr; }
+}
