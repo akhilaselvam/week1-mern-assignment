@@ -1,0 +1,44 @@
+[
+  {
+    "id": 1,
+    "title": "Getting Started with React",
+    "category": "React",
+    "author": "John Doe",
+    "excerpt": "Learn the basics of React components, props, and state."
+  },
+  {
+    "id": 2,
+    "title": "CSS Grid vs Flexbox",
+    "category": "CSS",
+    "author": "Jane Smith",
+    "excerpt": "Understand when to use Grid and when to use Flexbox."
+  },
+  {
+    "id": 3,
+    "title": "JavaScript ES6 Features",
+    "category": "JavaScript",
+    "author": "Alex Lee",
+    "excerpt": "Arrow functions, destructuring, and more."
+  },
+  {
+    "id": 4,
+    "title": "Building REST APIs with Node.js",
+    "category": "Backend",
+    "author": "Priya Sharma",
+    "excerpt": "A beginner's guide to Express and REST APIs."
+  },
+  {
+    "id": 5,
+    "title": "MongoDB Basics",
+    "category": "Backend",
+    "author": "John Doe",
+    "excerpt": "Learn how to store and query data with MongoDB."
+  },
+  {
+    "id": 6,
+    "title": "Responsive Design Tips",
+    "category": "CSS",
+    "author": "Jane Smith",
+    "excerpt": "Make your websites look great on every screen size."
+  }
+]
